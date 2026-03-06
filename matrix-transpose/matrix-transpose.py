@@ -4,4 +4,4 @@ def matrix_transpose(A):
     """
     Return the transpose of matrix A (swap rows and columns).
     """
-    return np.transpose(A)
+    return np.asarray(A).T
